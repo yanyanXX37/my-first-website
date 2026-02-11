@@ -1,6 +1,35 @@
 <!DOCTYPE html>
-<head lang=en> 
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP 10 FILMS</title>
+    <style>
+        .film-container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .film-title {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+        .gallery {
+            line-height: 0;
+            column-count: 2; /* Side by side on PC */
+            column-gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        @media (max-width: 600px) {
+            .gallery {
+                column-count: 1; /* Stacked on Phone */
+            }
+        }
+        a { color: #0d3b66; text-decoration: none; }
+    </style>
 </head>
 <body bgcolor="#f0e6d2">
     <font style="color:#0d3b66">
@@ -8,238 +37,96 @@
     <p>
         <b>
             <a href="index.html">
-                <font size="5">
-                    <
-                </font>
+                <font size="5"><</font>
             </a>
         </b>
     </p>
+
     <p align="center">
-        <b>
-            <font size="7">TOP 10 FILMS</font>
-        </b>
+        <b><font size="7">TOP 10 FILMS</font></b>
         <br>
         <font size="3">These are the films that I think are worth sharing.</font>
     </p>
 
-    <hr color="#0d3b66" width="90%" >
-    <br>
+    <hr color="#0d3b66" width="90%">
 
-    <p align="center">
-        <font size="4">
-      ➤ Call me by your name
-        </font>
-    </p>
-    <table align="center" width="90%" >
-        <tr>
-            <td rowspan="2">
-                <img src="cmbyn1.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="cmbyn2.jpeg" width="100%" height="100%">
-            </td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <p align="center">
-        <font size="4">
-      ➤ Edge of Seventeen
-        </font>
-    </p>
-    <table align="center" width="90%" >
-        <tr>
-            <td rowspan="2">
-                <img src="eos1.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="eos2.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="eos3.jpeg" width="100%" height="100%">
-            </td>
-        </tr>
-    </table>
-    <br>
-    <br>
+    <div class="film-container">
+        
+        <div class="film-title"><font size="4">➤ Call me by your name</font></div>
+        <div class="gallery">
+            <img src="cmbyn1.jpeg">
+            <img src="cmbyn2.jpeg">
+            <img src="cmbyn3.jpeg">
+        </div>
 
-    <p align="center">
-        <font size="4">
-      ➤ Everything, Everywhere, All at once
-        </font>
-    </p>
-    <table align="center" width="90%" >
-        <tr>
-            <td rowspan="2">
-                <img src="eeao1.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="eeao2.jpeg" width="100%" height="100%">
-            </td>
-        </tr>
-    </table>
-    <br>
-    <br>
+        <div class="film-title"><font size="4">➤ Edge of Seventeen</font></div>
+        <div class="gallery">
+            <img src="eos1.jpeg">
+            <img src="eos2.jpeg">
+            <img src="eos3.jpeg">
+        </div>
 
-    <p align="center">
-        <font size="4">
-      ➤ Perks of being a wallflower
-        </font>
-    </p>
-    <table align="center" width="90%" >
-        <tr>
-            <td rowspan="2">
-                <img src="perks1.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="perks2.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="perks3.jpeg" width="100%" height="100%">
-            </td>
-        </tr>
-    </table>
-    <br>
-    <br>
+        <div class="film-title"><font size="4">➤ Everything, Everywhere, All at once</font></div>
+        <div class="gallery">
+            <img src="eeao1.jpeg">
+            <img src="eeao2.jpeg">
+        </div>
 
-    <p align="center">
-        <font size="4">
-      ➤ Dead Poets Society
-        </font>
-    </p>
-    <table align="center" width="90%" >
-        <tr>
-            <td rowspan="2">
-                <img src="dps1.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="dps2.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="dps3.jpeg" width="100%" height="100%">
-            </td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <p align="center">
-        <font size="4">
-      ➤ Howl's Moving Castle
-        </font>
-    </p>
-    <table align="center" width="90%" >
-        <tr>
-            <td rowspan="2">
-                <img src="how1.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="howl2.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="howl3.jpeg" width="100%" height="100%">
-            </td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <p align="center">
-        <font size="4">
-      ➤ Kill Bill Vol. 1 and Vol. 2
-        </font>
-    </p>
-    <table align="center" width="90%" >
-        <tr>
-            <td rowspan="2">
-                <img src="kb1.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="kb2.jpeg" width="100%" height="100%">
-            </td>
-        </tr>
-    </table>
-    <br>
-    <br>
+        <div class="film-title"><font size="4">➤ Perks of being a wallflower</font></div>
+        <div class="gallery">
+            <img src="perks1.jpeg">
+            <img src="perks2.jpeg">
+            <img src="perks3.jpeg">
+        </div>
 
-    <p align="center">
-        <font size="4">
-      ➤ Wake up dead man
-        </font>
-    </p>
-    <table align="center" width="90%" >
-        <tr>
-            <td rowspan="2">
-                <img src="wake1.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="wake2.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="wake3.jpeg" width="100%" height="100%">
-            </td>
-        </tr>
-    </table>
-    <br>
-    <br>
+        <div class="film-title"><font size="4">➤ Dead Poets Society</font></div>
+        <div class="gallery">
+            <img src="dps1.jpeg">
+            <img src="dps2.jpeg">
+            <img src="dps3.jpeg">
+        </div>
 
-    <p align="center">
-        <font size="4">
-      ➤ Hunger Games Movies
-        </font>
-    </p>
-    <table align="center" width="90%" >
-        <tr>
-            <td rowspan="2">
-                <img src="hg1.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="hg2.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="hg3.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="hg4.jpeg" width="100%" height="100%">
-            </td>
-        </tr>
-    </table>
-    <br>
-    <br>
+        <div class="film-title"><font size="4">➤ Howl's Moving Castle</font></div>
+        <div class="gallery">
+            <img src="how1.jpeg">
+            <img src="howl2.jpeg">
+            <img src="howl3.jpeg">
+        </div>
 
-    <p align="center">
-        <font size="4">
-      ➤ Pitch Perfect Movies
-        </font>
-    </p>
-    <table align="center" width="90%" >
-        <tr>
-            <td rowspan="2">
-                <img src="pp1.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="pp2.jpeg" width="100%" height="100%">
-            </td>
-            <td rowspan="2">
-                <img src="pp3.jpeg" width="100%" height="100%">
-            </td>
-            
-        </tr>
-    </table>
-    <br>
-    <br>
+        <div class="film-title"><font size="4">➤ Kill Bill Vol. 1 and Vol. 2</font></div>
+        <div class="gallery">
+            <img src="kb1.jpeg">
+            <img src="kb2.jpeg">
+        </div>
 
-    <hr color="#0d3b66" width="90%" >
+        <div class="film-title"><font size="4">➤ Wake up dead man</font></div>
+        <div class="gallery">
+            <img src="wake1.jpeg">
+            <img src="wake2.jpeg">
+            <img src="wake3.jpeg">
+        </div>
 
-    <br>
-    <br>
+        <div class="film-title"><font size="4">➤ Hunger Games Movies</font></div>
+        <div class="gallery">
+            <img src="hg1.jpeg">
+            <img src="hg2.jpeg">
+            <img src="hg3.jpeg">
+            <img src="hg4.jpeg">
+        </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        <div class="film-title"><font size="4">➤ Pitch Perfect Movies</font></div>
+        <div class="gallery">
+            <img src="pp1.jpeg">
+            <img src="pp2.jpeg">
+            <img src="pp3.jpeg">
+        </div>
 
+    </div>
 
-    
+    <br><br>
+    <hr color="#0d3b66" width="90%">
+    <br><br>
 
+    </font>
 </body>
 </html>
